@@ -1,10 +1,14 @@
 # Bespoke Peony Designs
 
 ## Index
- - [Website Purpose] (#aim)
- - [Research] (#research)
- - [Design] (#design)
-    - [layout]
+ - [Website Purpose](#aim-of-the-website)
+ - [Research](#research)
+ - [User Experience](#user-experience)
+ - [Design](#design)
+    - [layout](#layout)
+        - [First Design](#first-design-mobile--small-screens)
+        - [Second Design](#second-design-tablets)
+        - [Third Design](#third-design-large-screens)
     - [Color Scheme]
     - [font]
     - [Priority of order]
@@ -21,6 +25,10 @@
     - [Links validation]
     - [Spell check]
     - [Accessibility rating]
+- Deployment method
+    - github pages
+    - forking
+    - making a clone
 - [Roadmap]
     - [Social media integration]
     - [E-commerce possibility]
@@ -30,25 +38,50 @@
 --- 
 
 ## Aim of the website
-#### aim
+
 Founder 'Gemma Seymour' has started Bespoke Peony Designs, starting as a biscuit maker for the unique events with a personal touch. Now combining with sourcing, crafting and baking skills - the portfolio now is aimed towards event planning and smaller catering requirements. 
 Bespoke Peony Kisses displays the array of products, 
-links to websites
+
+Link to live website:
+
 ---
 ## Research
-#### research
+
+Bespoke Peony Kisses is aimed at multiple markets offering a single or combined service. Each market focus on a specific layout/theme, with large volumes of animation. This website needs to offer a range of simplicity whilst showing the capability of customizing products offered.
+
 target audience
 competition
 
+## User Experience (UX)
+### User Stories
+    First time visitors
+    Returning visitors
+
 
 ## Design
-layout
+### layout
+for my layout, I chose a single page website displaying all information in a strategic method;
+1. Introduction (getting to know the host)
+2. Images/Gallery (Seeing the capability)
+3. Prices (approximate guideline)
+4. Contact form (Sending e-mails with their customisable enquiry)
+5. Footer (to link over to social media's website.)
+
+Following the above, I was able to create a template/wireframe for my website.
+    
+- #### First Design, Mobile & Small Screens
+    - <img src="assets\images\mobiledesign.png">
+- #### Second Design (Tablets)
+    - <img src="assets\images\tabletdesign.png">
+- #### Third Design (Large screens)
+    - <img src="assets\images\desktopdesign.png">
 color scheme
 font
 priority of order
 Responsive behaviour
 
 ## Useage
+language
 
 ## Features
 
@@ -56,7 +89,7 @@ Responsive behaviour
 mobile first image
 mid-stage
 
-**testing/Validator(s)/Accessibility**
+## Testings and Accessibility
     -[Bugs found and Fixed]
         - [x] form layout
     - [Bugs yet to fixed]
@@ -67,9 +100,13 @@ mid-stage
     - [Spell check]
     - [Accessibility rating]
 
-## later development / Roadmap
+## Roadmap
 Social Media Integration
 E-Commerce
+
+## Deployment
+
+## Credits
 
 ### References
 websites used
