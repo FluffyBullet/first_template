@@ -9,10 +9,8 @@
         - [First Design](#first-design-mobile--small-screens)
         - [Second Design](#second-design-tablets)
         - [Third Design](#third-design-large-screens)
-    - [Color Scheme]
-    - [font]
-    - [Priority of order]
-    - [Responsive design]
+    - [Color Scheme](#color-scheme)
+    - [font](#font)
 - [Use of website]
 - [Features]
 - [Development of the project]
@@ -75,9 +73,17 @@ Following the above, I was able to create a template/wireframe for my website.
     - <img src="assets\images\tabletdesign.png">
 - #### Third Design (Large screens)
     - <img src="assets\images\desktopdesign.png">
-color scheme
+#### Color Scheme
+As this website is created for my friend who has already created her profile with a dedicated facebook page. This resulted in a logo with specific colors created;
+
+<img src="assets\images\logo.jpg" alt="logo of bespoke peony designs" height=200px/>
+
+- ##### Background 
+    - the background has a beige finish, which is matched using image color picker (Notes in references). Background color is #ebe53.
+- ##### Font
+    - Font on the above image is 
+
 font
-priority of order
 Responsive behaviour
 
 ## Useage
@@ -110,6 +116,16 @@ E-Commerce
 
 ### References
 websites used
+
+[Balsamiq software](https://balsamiq.com/) - www.balsamiq.com
+>*Software to draft designs and layouts of the website.*
+
+[Image Color Picker](https://imagecolorpicker.com/en) - www.imagecolorpicker.com
+>*Used to identify the color of the background within the logo image provided. This is used to accurately quote the Hex reference for background color.*
+
+[Pexels](https://www.pexels.com/) - www.pexels.com
+>*Stock images used for gallery.*
+
 images used
 icons
 
