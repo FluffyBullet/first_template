@@ -2,15 +2,17 @@ body {
     margin:0 5%;
     padding:0;
     background-color:#ebe5e3;
-    color:rgb(78, 78, 78);
+    color:rgb(65, 61, 61);
+    text-align:center;
     }
 
 nav li, nav a, nav ul{
     display:inline; 
     text-decoration:none;
-    padding: 18px;
-    color:rgb(0, 0, 0);
+    padding: 7px;
+    color:rgb(4, 67, 202);
     text-transform:uppercase;
+    margin:0 auto;
     }
 
 nav img {
@@ -25,4 +27,57 @@ nav {
     text-align:center;
     background-color:#ebe5e3;
     padding-top:45px;
+}
+
+#welcome {
+    margin-top:15%;
+}
+
+.pictures{
+    columns:2;
+    gap:0;
+    margin:0 3%;
+}
+
+.container img{
+    width:100%;
+    gap:0;
+}
+
+.container {
+    position:relative;
+}
+
+.overlay {
+    position:absolute;
+    bottom:100%;
+    left: 0;
+    right: 0;
+    background-color:rgba(0,0,0,0.4);
+    overflow:hidden;
+    width:100%;
+    height:0;
+    transition: .5s ease;
+}
+
+.container:hover .overlay{
+    bottom:0;
+    height:100%
+}
+.text{
+    white-space:nowrap;
+    color:#ebe5e3;
+    font-size:30px;
+    position:absolute;
+    overflow:hidden;
+    top:50%;
+    left:60%;
+    transform:translate(-50%, -50%)
+}
+
+.page_break {
+    background-image: url("../images/cake.png");
+    height:100px;
+    opacity:0.4;
+    background-repeat:space;
 }

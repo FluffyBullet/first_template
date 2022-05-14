@@ -1,6 +1,6 @@
 # Bespoke Peony Designs
 
-[link to visit the live website](https://news.bbc.co.uk)
+Visit the live website [HERE](#)
 
 ## Index
  - [Website Purpose](#aim-of-the-website)
@@ -98,15 +98,20 @@ mobile first image
 mid-stage
 
 ## Testings and Accessibility
-    -[Bugs found and Fixed]
-        - [x] form layout
-    - [Bugs yet to fixed]
-        - [] format
-    - [HTML Validation]
-    - [CSS Validation]
-    - [Links validation]
-    - [Spell check]
-    - [Accessibility rating]
+- [Bugs found and Fixed]<br>
+    - [x] form layout<br>
+    - [x] Image Overlay<br>
+        - In the introduction of image gallery, I created an animation overlay when pressing/hovering over an image. On my first attempt, I found the overlay covered the top segment of the website.<br>
+<img src="assets\images\overlay_fail.jpg" alt="overlay not showing on screen correctly" height=200px/><img src="assets\images\overlay_correct.jpg" alt="Correction of overlay result" height=200px/><br>
+This was fixed by adding additional container with relative position, as the primary div's were position:absolute.
+
+- [Bugs yet to fixed]
+- [] format
+- [HTML Validation]
+- [CSS Validation]
+- [Links validation]
+- [Spell check]
+- [Accessibility rating]
 
 ## Roadmap
 Social Media Integration
@@ -128,6 +133,9 @@ websites used
 [Pexels](https://www.pexels.com/) - www.pexels.com
 >*Stock images used for gallery.*
 
+[w3 Schools online](https://w3schools.com) - www.w3schools.com
+>*Variety of HTML and CSS Codes, including image hover effect*
+
 images used
 icons
 
@@ -137,4 +145,4 @@ Contacts discussed the project with
 2. Mentor Marcel Mulders, conversations with what examples to look for, what may be helpful and objectives to be mindful of.
 3. Class mate - Anna Gabain, through long conversations covering some syntax logics and their meanings, whilst showing on my screen allowed me to develop my project.
 4. Class mate - Jamie King, presenting projects to each other and comparing notes to each other.
-5. Class mate - Fran Boyle, possitive attitude and showing another perspective to approach the coding methodology.
+5. Class mate - Fran Boyle, possitive attitude and showing another perspective to approach the coding methodology during this course.
