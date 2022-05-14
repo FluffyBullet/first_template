@@ -1,5 +1,7 @@
 # Bespoke Peony Designs
 
+[link to visit the live website](https://news.bbc.co.uk)
+
 ## Index
  - [Website Purpose](#aim-of-the-website)
  - [Research](#research)
@@ -11,11 +13,11 @@
         - [Third Design](#third-design-large-screens)
     - [Color Scheme](#color-scheme)
     - [font](#font)
-- [Use of website]
-- [Features]
+- [Construction of website](#construction-of-website)
+- [Features](#features)
 - [Development of the project]
     - [Approach]
-- [Testing]
+- [Testing](#testings-and-accessibility)
     - [Bugs found and Fixed]
     - [Bugs yet to fixed]
     - [HTML Validation]
@@ -27,11 +29,11 @@
     - github pages
     - forking
     - making a clone
-- [Roadmap]
+- [Roadmap](#roadmap)
     - [Social media integration]
     - [E-commerce possibility]
-- [References]
-- [Acknowledgements]
+- [References](#references)
+- [Acknowledgements](#acknowledgements)
 
 --- 
 
@@ -51,7 +53,7 @@ target audience
 competition
 
 ## User Experience (UX)
-### User Stories
+### User Expectations
     First time visitors
     Returning visitors
 
@@ -68,11 +70,11 @@ for my layout, I chose a single page website displaying all information in a str
 Following the above, I was able to create a template/wireframe for my website.
     
 - #### First Design, Mobile & Small Screens
-    - <img src="assets\images\mobiledesign.png">
+    - <img src="assets\images\mobiledesign.png" alt="design for mobile screens">
 - #### Second Design (Tablets)
-    - <img src="assets\images\tabletdesign.png">
+    - <img src="assets\images\tabletdesign.png" alt="Design for tablet screens">
 - #### Third Design (Large screens)
-    - <img src="assets\images\desktopdesign.png">
+    - <img src="assets\images\desktopdesign.png" alt="Design for desktop screens">
 #### Color Scheme
 As this website is created for my friend who has already created her profile with a dedicated facebook page. This resulted in a logo with specific colors created;
 
@@ -86,8 +88,8 @@ As this website is created for my friend who has already created her profile wit
 font
 Responsive behaviour
 
-## Useage
-language
+## Construction of website
+languages
 
 ## Features
 
@@ -131,3 +133,8 @@ icons
 
 ### Acknowledgements
 Contacts discussed the project with
+1. Huge thank you to my brother, Jason Reynolds of Cappfinity. Guiding me with my questions and prompting me rather than supplying answers.
+2. Mentor Marcel Mulders, conversations with what examples to look for, what may be helpful and objectives to be mindful of.
+3. Class mate - Anna Gabain, through long conversations covering some syntax logics and their meanings, whilst showing on my screen allowed me to develop my project.
+4. Class mate - Jamie King, presenting projects to each other and comparing notes to each other.
+5. Class mate - Fran Boyle, possitive attitude and showing another perspective to approach the coding methodology.
