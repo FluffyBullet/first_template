@@ -70,11 +70,11 @@ for my layout, I chose a single page website displaying all information in a str
 Following the above, I was able to create a template/wireframe for my website.
     
 - #### First Design, Mobile & Small Screens
-    - <img src="assets\images\mobiledesign.png" alt="design for mobile screens">
+    - <img src="assets\readme_images\mobiledesign.png" alt="design for mobile screens">
 - #### Second Design (Tablets)
-    - <img src="assets\images\tabletdesign.png" alt="Design for tablet screens">
+    - <img src="assets\readme_images\tabletdesign.png" alt="Design for tablet screens">
 - #### Third Design (Large screens)
-    - <img src="assets\images\desktopdesign.png" alt="Design for desktop screens">
+    - <img src="assets\readme_images\desktopdesign.png" alt="Design for desktop screens">
 #### Color Scheme
 As this website is created for my friend who has already created her profile with a dedicated facebook page. This resulted in a logo with specific colors created;
 
@@ -102,7 +102,7 @@ mid-stage
     - [x] form layout<br>
     - [x] Image Overlay<br>
         - In the introduction of image gallery, I created an animation overlay when pressing/hovering over an image. On my first attempt, I found the overlay covered the top segment of the website.<br>
-<img src="assets\images\overlay_fail.jpg" alt="overlay not showing on screen correctly" height=200px/><img src="assets\images\overlay_correct.jpg" alt="Correction of overlay result" height=200px/><br>
+<img src="assets\readme_images\overlay_fail.jpg" alt="overlay not showing on screen correctly" height=200px/><img src="assets\readme_images\overlay_correct.jpg" alt="Correction of overlay result" height=200px/><br>
 This was fixed by adding additional container with relative position, as the primary div's were position:absolute.
 
 - [Bugs yet to fixed]
