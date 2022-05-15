@@ -37,6 +37,7 @@ nav {
     columns:2;
     gap:0;
     margin:0 3%;
+
 }
 
 .container img{
@@ -76,8 +77,20 @@ nav {
 }
 
 .page_break {
-    background-image: url("../images/cake.png");
+    /* background-image: url("../images/cake.png"); */
     height:100px;
     opacity:0.4;
-    background-repeat:space;
+    /* background-repeat:space; */
+}
+
+.page_break img {
+    height: 80px;
+    padding-left:75px;
+}
+
+.page_break {
+    /* background-image: url("../images/two-macaroons.png"); */
+    height:100px;
+    opacity:0.4;
+    /* background-repeat:space; */
 }
