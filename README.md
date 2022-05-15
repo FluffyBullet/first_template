@@ -103,7 +103,7 @@ mid-stage
     - [x] Image Overlay<br>
         - In the introduction of image gallery, I created an animation overlay when pressing/hovering over an image. On my first attempt, I found the overlay covered the top segment of the website.<br>
 <img src="assets\readme_images\overlay_fail.jpg" alt="overlay not showing on screen correctly" height=200px/><img src="assets\readme_images\overlay_correct.jpg" alt="Correction of overlay result" height=200px/><br>
-This was fixed by adding additional container with relative position, as the primary div's were position:absolute.
+This was fixed by adding additional container with relative position, as the primary div's were position:absolute.<br> 
 
 - [Bugs yet to fixed]
 - [] format

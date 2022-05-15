@@ -77,10 +77,8 @@ nav {
 }
 
 .page_break {
-    /* background-image: url("../images/cake.png"); */
     height:100px;
     opacity:0.4;
-    /* background-repeat:space; */
 }
 
 .page_break img {
@@ -88,9 +86,12 @@ nav {
     padding-left:75px;
 }
 
-.page_break {
-    /* background-image: url("../images/two-macaroons.png"); */
-    height:100px;
-    opacity:0.4;
-    /* background-repeat:space; */
+#mid-page {
+    width:60%;
+    margin:0 auto;
+    font-size:2.4em;
+}
+
+#mid-page h4 {
+    margin-bottom:0;
 }
