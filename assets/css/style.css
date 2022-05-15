@@ -29,6 +29,13 @@ nav {
     padding-top:45px;
 }
 
+#scroll-top {
+    position:sticky;
+    /* position:absolute;
+    bottom:0;
+    right:0; */
+}
+
 #welcome {
     margin-top:15%;
 }

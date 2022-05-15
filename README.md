@@ -103,7 +103,10 @@ mid-stage
     - [x] Image Overlay<br>
         - In the introduction of image gallery, I created an animation overlay when pressing/hovering over an image. On my first attempt, I found the overlay covered the top segment of the website.<br>
 <img src="assets\readme_images\overlay_fail.jpg" alt="overlay not showing on screen correctly" height=200px/><img src="assets\readme_images\overlay_correct.jpg" alt="Correction of overlay result" height=200px/><br>
-This was fixed by adding additional container with relative position, as the primary div's were position:absolute.<br> 
+This was fixed by adding additional container with relative position, as the primary div's were position:absolute.<br>
+    - [x] Icons not displaying
+        - <img src="assets\readme_images\icons.gif" alt="icons being added, but not displayed"/>
+        - This was fixed by including the "awesome font" href in the head of HTML. - found in references.
 
 - [Bugs yet to fixed]
 - [] format
@@ -134,7 +137,10 @@ websites used
 >*Stock images used for gallery.*
 
 [w3 Schools online](https://w3schools.com) - www.w3schools.com
->*Variety of HTML and CSS Codes, including image hover effect*
+>*Variety of HTML and CSS Codes, including image hover effect.*
+
+[Awesomefont](https://awesomefont.com) - www.awesomefont.com
+>*Customized icons for events tab, relevant to specific host."*
 
 images used
 icons
