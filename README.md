@@ -54,8 +54,11 @@ competition
 
 ## User Experience (UX)
 ### User Expectations
-    First time visitors
-    Returning visitors
+
+*First Time Users*
+
+For a first time viewer, I would be following the flow of the website for information on the service and options of the company Bespoke Peony Kisses. First encounter is a a friendly welcome with a summary of the website and it;s 
+Returning visitors
 
 
 ## Design
