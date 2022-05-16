@@ -99,6 +99,10 @@ languages
 ## Progression
 mobile first image
 mid-stage
+Mid-stage in my project, I exported my HTML code to W3 Validator for HTML. The website had found some codes with an error, mostly div tags without a closing tag and break lines coded as self-closing, but not required.
+
+<img src="assets\readme_images\code_test.gif" alt="results of w3 validation at mid-project" height=250px/>
+
 
 ## Testings and Accessibility
 - [Bugs found and Fixed]<br>
@@ -112,7 +116,7 @@ This was fixed by adding additional container with relative position, as the pri
         - This was fixed by including the "awesome font" href in the head of HTML. - found in references.
 
 - [Bugs yet to fixed]
-- [] format
+- [Format]
 - [HTML Validation]
 - [CSS Validation]
 - [Links validation]
@@ -143,7 +147,10 @@ websites used
 >*Variety of HTML and CSS Codes, including image hover effect.*
 
 [Awesomefont](https://awesomefont.com) - www.awesomefont.com
->*Customized icons for events tab, relevant to specific host."*
+>*Customized icons for events tab, relevant to specific host.*
+
+[W3 Validator](https:validator.w3.org) - www.validator.w3.org
+>*Checking of HTML code for errors or incorrect formats.*
 
 images used
 icons
@@ -153,5 +160,6 @@ Contacts discussed the project with
 1. Huge thank you to my brother, Jason Reynolds of Cappfinity. Guiding me with my questions and prompting me rather than supplying answers.
 2. Mentor Marcel Mulders, conversations with what examples to look for, what may be helpful and objectives to be mindful of.
 3. Class mate - Anna Gabain, through long conversations covering some syntax logics and their meanings, whilst showing on my screen allowed me to develop my project.
-4. Class mate - Jamie King, presenting projects to each other and comparing notes to each other.
+4. Class mate - Jamie King, presenting projects to each other and comparing notes with each other.
 5. Class mate - Fran Boyle, possitive attitude and showing another perspective to approach the coding methodology during this course.
+6. Class mate - Gerard Kelly, conversations on presentation of files and path directories. Also preperation of information and display (front end).

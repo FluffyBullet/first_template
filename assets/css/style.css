@@ -6,6 +6,7 @@ body {
     text-align:center;
     }
 
+    /* For Nagivation Bar */
 nav li, nav a, nav ul{
     display:inline; 
     text-decoration:none;
@@ -27,13 +28,6 @@ nav {
     text-align:center;
     background-color:#ebe5e3;
     padding-top:45px;
-}
-
-#scroll-top {
-    position:sticky;
-    /* position:absolute;
-    bottom:0;
-    right:0; */
 }
 
 #welcome {
@@ -101,4 +95,19 @@ nav {
 
 #mid-page h4 {
     margin-bottom:0;
+}
+
+#guide {
+    font-size:2.4em;
+    margin:0 auto;
+}
+
+#guide td {
+    border-style:groove;
+    text-align:center;
+}
+
+#more, #more li {
+    list-style-type:square;
+    line-height:1.4em;
 }
