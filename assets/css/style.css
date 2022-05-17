@@ -29,11 +29,13 @@ nav {
     background-color:#ebe5e3;
     padding-top:45px;
 }
+/* end of nav section */
 
 #welcome {
     margin-top:15%;
 }
 
+/* gallery section*/
 .pictures{
     columns:2;
     gap:0;
@@ -62,6 +64,7 @@ nav {
     transition: .5s ease;
 }
 
+/*click or hover overlay*/
 .container:hover .overlay{
     bottom:0;
     height:100%
@@ -76,7 +79,9 @@ nav {
     left:60%;
     transform:translate(-50%, -50%)
 }
+/*end of hover overlay and gallery formatting*/
 
+/*effects for pagebreakers*/
 .page_break {
     height:100px;
     opacity:0.4;
@@ -87,6 +92,7 @@ nav {
     padding-left:75px;
 }
 
+/*events section formatting*/
 #mid-page {
     width:60%;
     margin:0 auto;
@@ -96,7 +102,9 @@ nav {
 #mid-page h4 {
     margin-bottom:0;
 }
+/*end of events section*/
 
+/* guide and further range*/
 #guide {
     font-size:2.4em;
     margin:0 auto;
