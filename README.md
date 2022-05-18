@@ -115,7 +115,8 @@ This was fixed by adding additional container with relative position, as the pri
         - <img src="assets\readme_images\icons.gif" alt="icons being added, but not displayed"/>
         - This was fixed by including the "awesome font" href in the head of HTML. - found in references.
 
-- [Bugs yet to fixed]
+- [Bugs to fixed]
+    - [o] email logo to be shown above contact us section for page breaker. 
 - [Format]
 - [HTML Validation]
 - [CSS Validation]
