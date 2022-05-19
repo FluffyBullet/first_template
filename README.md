@@ -109,6 +109,8 @@ Further checks at a later stage shown a reduced quantity of errors and further c
 
 The above errors were fixed by changing the page break sections with div's, as these are images to transition from page 1 to 2 etc. Not requiring a header.
 
+During the above checks, no errors were found on css w3 (jigsaw) validator.
+
 ## Testings and Accessibility
 - [Bugs found and Fixed]<br>
     - [x] form layout<br>
