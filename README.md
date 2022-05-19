@@ -98,11 +98,16 @@ languages
 
 ## Progression
 mobile first image
-mid-stage
-Mid-stage in my project, I exported my HTML code to W3 Validator for HTML. The website had found some codes with an error, mostly div tags without a closing tag and break lines coded as self-closing, but not required.
+### mid-stage
+Mid-stage in my project, I exported my HTML code to W3 Validator for HTML. The website had found some codes with an error, mostly div tags without a closing tag and break lines coded as self-closing, but not required. On review of the below image, I corrected end with removal of end tags and closure tags.
 
 <img src="assets\readme_images\code_test.gif" alt="results of w3 validation at mid-project" height=250px/>
 
+Further checks at a later stage shown a reduced quantity of errors and further corrections to be made.
+
+<img src="assets/readme_images/code_test2.gif" alt="second check of html on w3 validation site">
+
+The above errors were fixed by changing the page break sections with div's, as these are images to transition from page 1 to 2 etc. Not requiring a header.
 
 ## Testings and Accessibility
 - [Bugs found and Fixed]<br>
@@ -116,7 +121,7 @@ This was fixed by adding additional container with relative position, as the pri
         - This was fixed by including the "awesome font" href in the head of HTML. - found in references.
 
 - [Bugs to fixed]
-    - [o] email logo to be shown above contact us section for page breaker. 
+    - [] email logo to be shown above contact us section for page breaker. 
 - [Format]
 - [HTML Validation]
 - [CSS Validation]
@@ -152,6 +157,12 @@ websites used
 
 [W3 Validator](https:validator.w3.org) - www.validator.w3.org
 >*Checking of HTML code for errors or incorrect formats.*
+
+[Google Fonts](https://fonts.google.com) - www.fonts.google.com
+>*Fonts used on website - Playfair Dsiplay"
+
+[HTML & CSS book](#https://www.amazon.co.uk/s?k=jon+duckett+html+and+css&sprefix=jon+duckett%2Caps%2C73&ref=nb_sb_ss_ts-doa-p_4_11) - Book borrowed from Jason Reynolds.
+>*Hints, tips and presentation of html and css used throughout the codes*
 
 images used
 icons
