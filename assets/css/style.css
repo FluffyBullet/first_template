@@ -17,6 +17,14 @@ nav li, nav a, nav ul{
     margin:0 auto;
     }
 
+a, li a {
+    text-decoration:double underline;
+    text-decoration-style: wavy;
+    font-weight:600;
+    color:grey;
+
+}
+
 nav img {
     height:650px;
 }
