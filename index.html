@@ -33,7 +33,7 @@
             <section class="page_break">
                 <p><img src="assets/images/cake.png" alt="cake icon"/><img src="assets/images/cake.png" alt="cake icon"/><img src="assets/images/cake.png" alt="cake icon"/></p>
             </section>
-            <br>
+            <br><br>
             <!--section for images with overlay-->
             <section>
                 <h2 class="title" id="gallery">Gallery</h2>
@@ -128,15 +128,15 @@
             <!--contact section-->
             <section class="center" id="contactus">
                 <h3>Contact Form</h3>
-                <form>
+                <form action="https://formdump.codeinstitute.net/">
                 <fieldset>
                     <legend>Contact Me:</legend>
                     <div class="entry">
                     <label for="name">Your Name</label><input class="entry" type="text" name="Contact" id="name" placeholder="First Name/Surname" required><br>
                     <label for="email">Contact E-mail</label><input class="entry" type="email" name="email" id="email" placeholder="Enter E-Mail" required><br>
-                    <label for="body">Event and Idea's</label><textarea class="entry" name="body" id="body" placeholder="Interest/Requirement" required></textarea><br>
+                    <label for="body">Event and Idea's</label><textarea class="entry" name="body" id="body" placeholder="Interest/Requirement" cols="20" rows="6" required></textarea><br>
                     <p>Delivery Method;</p>
-                    <label for="collect">Collect</label><input type="radio" name="delivery" value="collect" id="collect"><br>
+                    <label for="collect">Collect</label><input type="radio" name="delivery" value="collect" id="collect" required><br>
                     <label for="deliver">Deliver</label><input type="radio" name="delivery" value="deliver" id=deliver><br>
                     <br>
                     </div>
@@ -150,7 +150,22 @@
         </main>
         <!--links to social media to be added to the footer-->
         <footer>
-
+            <div class="social">
+                <p><a href="https://www.twitter.com" target="_blank" rel="nooponer" aria-label="Visit my twitter page, on a new tab"><i class="fa-brands fa-instagram"></i></a></p>
+            </div>
+            <div class="social">
+                <p><a href="https://www.facebook.com/bespokepeonykisses" target="_blank" aria-label="visit my facebook page in a new tab"><i class="fa-brands fa-facebook-square"></i></a></p>
+            </div>
+            <div class="social">
+                <p><a href="https://www.snapchat.com" target="_blank" rel="nooponer" aria-label="Visit our Snapchat page in a new tab"><i class="fa-brands fa-snapchat"></i></a></p>
+            </div>
+            <div class="e-mail">
+                <p><i class="fa-solid fa-circle-envelope"></i></p>
+            </div>
+            <div>
+                <p id="me">Created by David Reynolds</p>
+            </div>
+        </footer>
         </footer>
     </body>
 </html>

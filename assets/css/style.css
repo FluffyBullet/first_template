@@ -101,7 +101,7 @@ nav {
 #mid-page {
     width:60%;
     margin:0 auto;
-    font-size:2.4em;
+    font-size:2.4rem;
 }
 
 #mid-page h4 {
@@ -158,4 +158,28 @@ form {
 input.button:active{
  background-color:black;
  color:#ebe5e3;
+}
+
+/* footer formatting*/
+footer {
+    display:flex;
+    justify-content:center;
+    text-indent:20px;
+    position:relative;
+}
+
+.social {
+    font-size:4em;
+}
+
+.social a{
+    color:rgb(78, 78, 78);
+    text-indent:15px;
+    margin-bottom:20px;
+}
+
+#me {
+    position:absolute;
+    bottom:0;
+    right:0;
 }
