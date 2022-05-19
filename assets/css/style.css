@@ -98,6 +98,10 @@ nav {
     padding-right:75px;
 }
 
+.page_break i:hover, .page_break img:hover{
+    opacity:0;
+}
+
 /*events section formatting*/
 #mid-page {
     width:60%;
