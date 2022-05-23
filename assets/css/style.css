@@ -80,12 +80,12 @@ nav {
 .text{
     white-space:nowrap;
     color:#ebe5e3;
-    font-size:30px;
+    font-size:24px;
     position:absolute;
     overflow:hidden;
     top:50%;
     left:60%;
-    transform:translate(-50%, -50%)
+    transform:translate(-50%, -50%);
 }
 /*end of hover overlay and gallery formatting*/
 
@@ -93,7 +93,7 @@ nav {
 .page_break {
     height:100px;
     opacity:0.4;
-    font-size:4em;
+    font-size:64px;
     display:flex;
     justify-content:center;
     word-spacing:135px;
@@ -201,7 +201,29 @@ footer {
 }
 
 @media screen and (min-width:1000px){
+    body {
+        font-size:24px;
+    }
     .pictures{
         columns:5;
     }
+    nav li {
+        font-size:x-large;
+    }
+    .welcome {
+        font-size:1.2rem;
+    }
+    #mid-page{
+        font-size:1.6rem;
+    }
+    .event1, .event2 {
+        display:inline-block;
+        width:40%;
+    }
+    .event1 {
+        float:left;
+    }
+    /* .event2 {
+        float:right;
+    } */
 }

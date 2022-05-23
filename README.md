@@ -124,6 +124,8 @@ This was fixed by adding additional container with relative position, as the pri
 
 - [Bugs to fixed]
     - [] email logo to be shown above contact us section for page breaker. 
+    - [] Font on overlay of pictures to adjust to size.
+    - [] on reactive media to large screens +1Kpx, contact form overlaps page breaker icons. Squashed upwards ?
 - [Format]
 - [HTML Validation]
 - [CSS Validation]
