@@ -97,6 +97,7 @@ nav {
     display:flex;
     justify-content:center;
     word-spacing:135px;
+    width:100%;
 }
 
 .page_break img {
@@ -215,6 +216,7 @@ footer {
     }
     #mid-page{
         font-size:1.6rem;
+        height:750px;
     }
     .event1, .event2 {
         display:inline-block;
@@ -223,7 +225,7 @@ footer {
     .event1 {
         float:left;
     }
-    /* .event2 {
+    .event2 {
         float:right;
-    } */
+    }
 }
