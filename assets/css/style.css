@@ -209,6 +209,9 @@ footer {
         display:inline;
         float:left;
     }
+    nav img {
+        padding-top:60px;
+    }
     .pictures{
         columns:5;
     }
