@@ -124,7 +124,7 @@ nav {
 
 /* guide and further range*/
 #guide {
-    font-size:2.4em;
+    font-size:2.4rem;
     margin:0 auto;
 }
 
@@ -135,7 +135,7 @@ nav {
 
 #guide table {
     margin:0 auto;
-    padding-bottom:2em;
+    padding-bottom:2rem;
 }
 
 #more, #more li {
