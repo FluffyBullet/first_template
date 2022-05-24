@@ -92,7 +92,7 @@ font
 Responsive behaviour
 
 ## Construction of website
-languages
+This website has been using with construction of HTML and CSS, core languages trained by Code Institute for my first project.
 
 ## Features
 

@@ -205,6 +205,10 @@ footer {
     body {
         font-size:24px;
     }
+    nav img, nav ul {
+        display:inline;
+        float:left;
+    }
     .pictures{
         columns:5;
     }
@@ -213,19 +217,24 @@ footer {
     }
     .welcome {
         font-size:1.2rem;
+        width:40%;
+        display:inline-block;
     }
     #mid-page{
         font-size:1.6rem;
         height:750px;
     }
-    .event1, .event2 {
+    .event1, .event2, .event3 {
         display:inline-block;
-        width:40%;
+        width:30%;
     }
     .event1 {
         float:left;
     }
-    .event2 {
+    .event3 {
         float:right;
+    }
+    .event2 {
+        height:fit-content;
     }
 }
