@@ -25,7 +25,7 @@ a, li a {
 }
 
 nav img {
-    height:650px;
+    width:375px;
 }
 
 nav ul a:hover {
@@ -93,17 +93,16 @@ nav {
 .page_break {
     height:100px;
     opacity:0.4;
-    font-size:64px;
+    font-size:32px;
     display:flex;
     justify-content:center;
-    word-spacing:135px;
+    word-spacing:65px;
     width:100%;
 }
 
 .page_break img {
-    height: 80px;
-    padding-left:75px;
-    padding-right:75px;
+    height: 50px;
+    padding: 0 30px;
 }
 
 .page_break i:hover, .page_break img:hover{
@@ -114,7 +113,7 @@ nav {
 #mid-page {
     width:60%;
     margin:0 auto;
-    font-size:2.4rem;
+    font-size:1.2rem;
 }
 
 #mid-page h4 {
@@ -124,7 +123,7 @@ nav {
 
 /* guide and further range*/
 #guide {
-    font-size:2.4rem;
+    font-size:1.4rem;
     margin:0 auto;
 }
 
@@ -138,19 +137,13 @@ nav {
     padding-bottom:2rem;
 }
 
-/* #additional {
-    display:flex;
-    justify-content:center;
+#more, #more li {
+    list-style: none;
+    line-height:1.4em;
 }
 
-#additional > ul {
-    padding-left: 0;
-} */
-
-
-#more, #more li {
-    list-style-type:none;
-    line-height:1.4em;
+#more ul{
+    padding:0;
 }
 
 table tr:hover{
@@ -159,15 +152,18 @@ table tr:hover{
 
 /*Contact Form section*/
 form {
-    font-size:3em;
-    line-height:70px;
+    font-size:1em;
+    line-height:30px;
 }
 
 .entry input, .entry textarea{
     float:right;
     width:50%;
-    height:55px;
-    font-size:1.6rem;
+    height:20px;
+    font-size:1rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:end;
 }
 
 #contactus {
@@ -196,7 +192,7 @@ footer {
 }
 
 .social {
-    font-size:4em;
+    font-size:2.5rem;
 }
 
 .social a{

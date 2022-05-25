@@ -58,10 +58,13 @@ competition
 *First Time Users*
 
 For a first time viewer, I would be following the flow of the website for information on the service and options of the company Bespoke Peony Kisses. First encounter is a a friendly welcome with a summary of the website, along with a navigation to confirm the feature/sections on the page.
-As the consumer scrolls down the website page, they will be guided through a selection of images displaying previous creations to showcase their abilities. Followed shortly by events where the services have been utilized, with their own unique 
+As the consumer scrolls down the website page, they will be guided through a selection of images displaying previous creations to showcase their abilities. Followed shortly by events where the services have been utilized, with their own unique traits.
 
 
-Returning visitors
+*Returning visitors*
+
+Returning visitors visit the website with a link either via the navigation bar or the hyper-link in the welcome paragraph to "Contact Us" section, forwarding to the final section of the web-page - submitting the customers requirements. 
+
 
 
 ## Design
