@@ -1,6 +1,6 @@
 # Bespoke Peony Designs
 
-Visit the live website [HERE](https://fluffybullet.github.io/first_template/)
+Visit the live website [HERE](https://fluffybullet.github.io/peony_kisses/)
 
 ## Index
  - [Website Purpose](#aim-of-the-website)
@@ -42,7 +42,7 @@ Visit the live website [HERE](https://fluffybullet.github.io/first_template/)
 Founder 'Gemma Seymour' has started Bespoke Peony Designs, starting as a biscuit maker for the unique events with a personal touch. Now combining with sourcing, crafting and baking skills - the portfolio now is aimed towards event planning and smaller catering requirements. 
 Bespoke Peony Kisses displays the array of products, 
 
-Link to live website:[HERE](https://fluffybullet.github.io/first_template/)
+Link to live website:[HERE](https://fluffybullet.github.io/peony_kisses/)
 
 ---
 ## Research

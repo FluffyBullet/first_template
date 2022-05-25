@@ -222,6 +222,8 @@ footer {
         font-size:1.2rem;
         width:40%;
         display:inline-block;
+        min-width:250px;
+        float:none;
     }
     #mid-page{
         font-size:1.6rem;
@@ -239,5 +241,10 @@ footer {
     }
     .event2 {
         height:fit-content;
+    }
+    .guide-info {
+        width:50%;
+        display:inline-block;
+        float:left;
     }
 }
