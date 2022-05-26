@@ -18,7 +18,7 @@ Visit the live website [HERE](https://fluffybullet.github.io/peony_kisses/)
 - [Development of the project]
     - [Approach]
 - [Testing](#testings-and-accessibility)
-    - [Bugs found and Fixed]
+    - [Bugs found and Fixed](#bugs)
     - [Bugs yet to fixed]
     - [HTML Validation]
     - [CSS Validation]
@@ -51,7 +51,7 @@ Bespoke Peony Kisses is aimed at multiple markets offering a single or combined 
 
 Services are aimed towards a wide range of audiences who are looking to entertain a group or party of people during their hosting. Primarily targeted to the wedding scene, but not limiting or restricting parties for working environments, birthday parties, celebratory events.
 
-My designs were used for the 
+My designs were used for the unique and simplistic views to the customer. All competitor websites were created in a block by block format with animation scrolling through an array of images. The views were effective, but rushed users to navigate away from the page.
 
 ## User Experience (UX)
 ### User Expectations
@@ -96,10 +96,14 @@ As this website is created for my friend who has already created her profile wit
     - Font on the above image is "Brown Sugar" but only available as a capitol letters only. To match a similar style, I browsed sites between fonts.google, dafont and various other sites. Finding Playfair display from google fonts. 
 
 - #### Responsive behaviour
-    - 
+    - In the wireframes created, I selected layouts that include sections side by side with tables of information, event styles. [edit] Further along the project, I reviewed the opening page and discussed with the potential user of the website, changing the layout of welcome section, which includes logo as a center image with welcome text on the right.
+    - Font size is to be adjusted to the display equipment, this is created by using elements with a rem selector for font size, reactive css then changes the default font size when expanding to a larger screen.
+    - Desktop version changed to navbar being linked to the top of the page, pushing the companies logo to be adjacent to the welcome text.
+    - For interaction with the user of the webiste, I included animations to respond to clicks or locations of mouses. 
+        + Page-breaker icons/images, to hide when hovered over or clicked on, then re-appearing when opposite reaction is actioned.
+        + Highlighting of table rows in pricing guide, for easier viewing of prices
+        + Changing color bottons in contact form to confirm ation has been completed on request.
 
-font
-Responsive behaviour
 
 ## Construction of website
 This website has been using with construction of HTML and CSS, core languages trained by Code Institute for my first project.
@@ -122,7 +126,7 @@ The above errors were fixed by changing the page break sections with div's, as t
 During the above checks, no errors were found on css w3 (jigsaw) validator.
 
 ## Testings and Accessibility
-- [Bugs found and Fixed]<br>
+- ### bugs 
     - [x] form layout<br>
     - [x] Image Overlay<br>
         - In the introduction of image gallery, I created an animation overlay when pressing/hovering over an image. On my first attempt, I found the overlay covered the top segment of the website.<br>
@@ -135,21 +139,29 @@ This was fixed by adding additional container with relative position, as the pri
         - adjusted to 50 vertical on CSS, with font sizings adjusting to the display equipment
     - [x] on reactive media to large screens +1Kpx, contact form overlaps page breaker icons. Squashed upwards ?
         - welcome division had fixed height which squashed on smaller sizes, removal of fixed height correct this.
+    - [x] email logo to be shown above contact us section for page breaker.
+        - created as a p element with styling, confirming icons rather than images or text.  
 
 - [Bugs to fixed]
-    - [] email logo to be shown above contact us section for page breaker. 
-    - [] events and idea's text area to display a multiple lines rather than single line.
+    - [] Contact us events and idea's text area to display a multiple lines rather than single line.
    
 - [Format]
 - [HTML Validation]
+    * During the course, this website and it's code has been tested using w3 validator and jigsaw w3 validator. Some errors have been found and logged within the testing stage, then corrected at a later point.
+    On completeion of the project, final checks with both w3 validator and jigsaw w3 validator have confirmed no errors found within the code. 
 - [CSS Validation]
+    * During the course, this website and it's code has been tested using w3 validator and jigsaw w3 validator. Some errors have been found and logged within the testing stage, then corrected at a later point.
+    On completeion of the project, final checks with both w3 validator and jigsaw w3 validator have confirmed no errors found within the code. 
 - [Links validation]
 - [Spell check]
 - [Accessibility rating]
 
 ## Roadmap
-Social Media Integration
-E-Commerce
+
+The aim of the websites first creation is static information to show a range of products available to buy. Features to be added at a later stage is:
+- live blogs of social media post, Facebook and Twitter
+- E-Commerce site, for a selection of generic made biscuits/cakes
+- Upload of images to send via form for special products
 
 ## Deployment
 
