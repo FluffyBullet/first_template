@@ -109,7 +109,7 @@ nav {
     font-size:32px;
     display:flex;
     justify-content:center;
-    word-spacing:15%;
+    word-spacing:25px;
     width:100%;
 }
 
@@ -258,7 +258,6 @@ footer {
     #welcome-text h1{
         text-align:center;
     }
-
     #mid-page{
         font-size:1.6rem;
         height:750px;
@@ -273,12 +272,16 @@ footer {
     .event3 {
         float:right;
     }
-    .event2 {
-        height:fit-content;
-    }
     .guide-info {
         width:50%;
         display:inline-block;
         float:left;
+    }
+    #contactus {
+        width:500px;
+        margin:0 auto;
+    }
+    footer{
+        text-indent:150px;
     }
 }
