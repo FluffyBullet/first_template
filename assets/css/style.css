@@ -39,9 +39,22 @@ nav {
 }
 /* end of nav section */
 
-#welcome {
-    margin-top:15%;
+#welcome-body{
+    margin-top:5%;
+    width:100%;
 }
+
+#welcome-text {
+    display:inline-block;
+}
+
+#logo-main {
+    display:inline-block;
+}
+#logo-main img{
+    display:none;
+}
+
 
 /* gallery section*/
 .pictures{
@@ -96,13 +109,13 @@ nav {
     font-size:32px;
     display:flex;
     justify-content:center;
-    word-spacing:65px;
+    word-spacing:15%;
     width:100%;
 }
 
 .page_break img {
     height: 50px;
-    padding: 0 30px;
+    padding: 0 15px;
 }
 
 .page_break i:hover, .page_break img:hover{
@@ -207,16 +220,12 @@ footer {
     right:0;
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:1025px){
     body {
         font-size:24px;
     }
-    nav img, nav ul {
-        display:inline;
-        float:left;
-    }
     nav img {
-        padding-top:60px;
+        display:none;
     }
     .pictures{
         columns:5;
@@ -224,13 +233,32 @@ footer {
     nav li {
         font-size:x-large;
     }
-    .welcome {
-        font-size:1.2rem;
-        width:40%;
-        display:inline-block;
-        min-width:250px;
-        float:none;
+    .page_break {
+        word-spacing:235px;
     }
+    
+    .page_break img {
+        height: 50px;
+        padding: 0 125px;
+    }
+    #welcome-body{
+        margin:5% 0;
+    }
+    #logo-main {
+        height:280px;
+    }
+    #welcome-text {
+        text-align:left;
+        line-height:2.3rem;
+        width:750px;
+    }
+    #logo-main img{
+        display:inline-block;
+    }
+    #welcome-text h1{
+        text-align:center;
+    }
+
     #mid-page{
         font-size:1.6rem;
         height:750px;
