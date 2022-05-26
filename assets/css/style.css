@@ -196,6 +196,10 @@ input.button:active{
  color:#ebe5e3;
 }
 
+#reqdate {
+    flex-direction:row;
+}
+
 /* footer formatting*/
 footer {
     display:flex;
