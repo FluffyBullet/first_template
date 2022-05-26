@@ -165,10 +165,13 @@ The aim of the websites first creation is static information to show a range of 
 
 ## Deployment
 
+This project is hosted and stored on www.github.com, with editing through www.gitpod.com and desktop similar software: Visual Studio's. Settings are edited to allow public viewing as required feedback from intended customer and clients on a regular basis.
+
+
+
 ## Credits
 
 ### References
-websites used
 
 [Balsamiq software](https://balsamiq.com/) - www.balsamiq.com
 >*Software to draft designs and layouts of the website.*
@@ -180,7 +183,9 @@ websites used
 >*Stock images used for gallery.*
 
 [w3 Schools online](https://w3schools.com) - www.w3schools.com
->*Variety of HTML and CSS Codes, including image hover effect.*
+>*Variety of HTML and CSS Codes,<br>
+Included use on: Hover overlay of images<br>
+Meta tags for viewport and description*
 
 [Awesomefont](https://awesomefont.com) - www.awesomefont.com
 >*Customized icons for events tab, relevant to specific host.*
@@ -192,10 +197,11 @@ websites used
 >*Fonts used on website - Playfair Dsiplay"
 
 [HTML & CSS book](#https://www.amazon.co.uk/s?k=jon+duckett+html+and+css&sprefix=jon+duckett%2Caps%2C73&ref=nb_sb_ss_ts-doa-p_4_11) - Book borrowed from Jason Reynolds.
->*Hints, tips and presentation of html and css used throughout the codes*
+>*Hints, tips and presentation of html and css used throughout the codes<br>
+exmaple of creating columns within a page<br>
+Understanding use of display:none and visibility:hidden<br>
+Formating layout of contact form*
 
-images used
-icons
 
 ### Acknowledgements
 Contacts discussed the project with
