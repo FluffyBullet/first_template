@@ -49,8 +49,9 @@ Link to live website:[HERE](https://fluffybullet.github.io/peony_kisses/)
 
 Bespoke Peony Kisses is aimed at multiple markets offering a single or combined service. Each market focus on a specific layout/theme, with large volumes of animation. This website needs to offer a range of simplicity whilst showing the capability of customizing products offered.
 
-target audience
-competition
+Services are aimed towards a wide range of audiences who are looking to entertain a group or party of people during their hosting. Primarily targeted to the wedding scene, but not limiting or restricting parties for working environments, birthday parties, celebratory events.
+
+My designs were used for the 
 
 ## User Experience (UX)
 ### User Expectations
@@ -63,7 +64,7 @@ As the consumer scrolls down the website page, they will be guided through a sel
 
 *Returning visitors*
 
-Returning visitors visit the website with a link either via the navigation bar or the hyper-link in the welcome paragraph to "Contact Us" section, forwarding to the final section of the web-page - submitting the customers requirements. 
+Returning visitors visit the website with a link either via the navigation bar or the hyper-link in the welcome paragraph to "Contact Us" section, forwarding to the final section of the web-page - submitting the customers requirements, creating a simple and quick visit to the website.
 
 
 
@@ -92,7 +93,10 @@ As this website is created for my friend who has already created her profile wit
 - ##### Background 
     - the background has a beige finish, which is matched using image color picker (Notes in references). Background color is #ebe53.
 - ##### Font
-    - Font on the above image is 
+    - Font on the above image is "Brown Sugar" but only available as a capitol letters only. To match a similar style, I browsed sites between fonts.google, dafont and various other sites. Finding Playfair display from google fonts. 
+
+- #### Responsive behaviour
+    - 
 
 font
 Responsive behaviour
@@ -127,11 +131,15 @@ This was fixed by adding additional container with relative position, as the pri
     - [x] Icons not displaying
         - <img src="assets\readme_images\icons.gif" alt="icons being added, but not displayed"/>
         - This was fixed by including the "awesome font" href in the head of HTML. - found in references.
+     - [x] Font on overlay of pictures to adjust to size.
+        - adjusted to 50 vertical on CSS, with font sizings adjusting to the display equipment
+    - [x] on reactive media to large screens +1Kpx, contact form overlaps page breaker icons. Squashed upwards ?
+        - welcome division had fixed height which squashed on smaller sizes, removal of fixed height correct this.
 
 - [Bugs to fixed]
     - [] email logo to be shown above contact us section for page breaker. 
-    - [] Font on overlay of pictures to adjust to size.
-    - [] on reactive media to large screens +1Kpx, contact form overlaps page breaker icons. Squashed upwards ?
+    - [] events and idea's text area to display a multiple lines rather than single line.
+   
 - [Format]
 - [HTML Validation]
 - [CSS Validation]
