@@ -86,7 +86,7 @@ Following the above, I was able to create a template/wireframe for my website.
 - #### Third Design (Large screens)
     - <img src="assets\readme_images\desktopdesign.png" alt="Design for desktop screens">
 #### Color Scheme
-As this website is created for my friend who has already created her profile with a dedicated facebook page. This resulted in a logo with specific colors created;
+As this website is created for my friend who has already created her profile with a dedicated Facebook page. This resulted in a logo with specific colors created;
 
 <img src="assets\images\logo.jpg" alt="logo of bespoke peony designs" height=200px/>
 
@@ -96,13 +96,13 @@ As this website is created for my friend who has already created her profile wit
     - Font on the above image is "Brown Sugar" but only available as a capitol letters only. To match a similar style, I browsed sites between fonts.google, dafont and various other sites. Finding Playfair display from google fonts. 
 
 - #### Responsive behaviour
-    - In the wireframes created, I selected layouts that include sections side by side with tables of information, event styles. [edit] Further along the project, I reviewed the opening page and discussed with the potential user of the website, changing the layout of welcome section, which includes logo as a center image with welcome text on the right.
-    - Font size is to be adjusted to the display equipment, this is created by using elements with a rem selector for font size, reactive css then changes the default font size when expanding to a larger screen.
+    - In the wireframes created, I selected layouts that include sections side by side with tables of information, event styles. [edit] Further along the project, I reviewed the opening page and discussed with the potential user of the website, changing the layout of welcome section, which includes logo as a centre image with welcome text on the right.
+    - Font size is to be adjusted to the display equipment, this is created by using elements with a rem selector for font size, reactive CSS then changes the default font size when expanding to a larger screen.
     - Desktop version changed to navbar being linked to the top of the page, pushing the companies logo to be adjacent to the welcome text.
-    - For interaction with the user of the webiste, I included animations to respond to clicks or locations of mouses. 
+    - For interaction with the user of the website, I included animations to respond to clicks or locations of mouses. 
         + Page-breaker icons/images, to hide when hovered over or clicked on, then re-appearing when opposite reaction is actioned.
         + Highlighting of table rows in pricing guide, for easier viewing of prices
-        + Changing color bottons in contact form to confirm ation has been completed on request.
+        + Changing color buttons in contact form to confirm action has been completed on request.
 
 
 ## Construction of website
@@ -123,7 +123,7 @@ Further checks at a later stage shown a reduced quantity of errors and further c
 
 The above errors were fixed by changing the page break sections with div's, as these are images to transition from page 1 to 2 etc. Not requiring a header.
 
-During the above checks, no errors were found on css w3 (jigsaw) validator.
+During the above checks, no errors were found on CSS w3 (jigsaw) validator.
 
 ## Testings and Accessibility
 - ### bugs 
@@ -148,10 +148,10 @@ This was fixed by adding additional container with relative position, as the pri
 - [Format]
 - [HTML Validation]
     * During the course, this website and it's code has been tested using w3 validator and jigsaw w3 validator. Some errors have been found and logged within the testing stage, then corrected at a later point.
-    On completeion of the project, final checks with both w3 validator and jigsaw w3 validator have confirmed no errors found within the code. 
+    On completion of the project, final checks with both w3 validator and jigsaw w3 validator have confirmed no errors found within the code. 
 - [CSS Validation]
     * During the course, this website and it's code has been tested using w3 validator and jigsaw w3 validator. Some errors have been found and logged within the testing stage, then corrected at a later point.
-    On completeion of the project, final checks with both w3 validator and jigsaw w3 validator have confirmed no errors found within the code. 
+    On completion of the project, final checks with both w3 validator and jigsaw w3 validator have confirmed no errors found within the code. 
 - [Links validation]
 - [Spell check]
 - [Accessibility rating]
@@ -194,11 +194,11 @@ Meta tags for viewport and description*
 >*Checking of HTML code for errors or incorrect formats.*
 
 [Google Fonts](https://fonts.google.com) - www.fonts.google.com
->*Fonts used on website - Playfair Dsiplay"
+>*Fonts used on website - Playfair Display"
 
 [HTML & CSS book](#https://www.amazon.co.uk/s?k=jon+duckett+html+and+css&sprefix=jon+duckett%2Caps%2C73&ref=nb_sb_ss_ts-doa-p_4_11) - Book borrowed from Jason Reynolds.
->*Hints, tips and presentation of html and css used throughout the codes<br>
-exmaple of creating columns within a page<br>
+>*Hints, tips and presentation of HTML and CSS used throughout the codes<br>
+example of creating columns within a page<br>
 Understanding use of display:none and visibility:hidden<br>
 Formating layout of contact form*
 
