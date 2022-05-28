@@ -110,6 +110,32 @@ This website has been using with construction of HTML and CSS, core languages tr
 
 ## Features
 
+Peony Kisses website has been created with a host of features to enable the best user experience possible.
+
+With the mobile first technique, the website is designed for optimal layout on small devices, then adaptive behaviour for a larger range of screens. The content is desireable in two layouts, removing the requirement of multiple breakpoints, only the one. This limits the websites requirement for display status and how to behave, increasing it's overal speed.
+
+Accessibility has also been accounted for, with aria labels added to the relevant sections of links and images. As all text can be read by a text-to-speech software built in majority of computers as a standard. The color contract between text and background also allows users with partial site or color blind understand with ease too. Both ratings have been taken from dev tools Light house application.
+
+In the design of the website, it's contents have been created in an order to suit the consumers requirements, answering why and what questions before they are thought of. 
+This includes:
++ Navigation bar at the top of the screen : 
+    * <img src="assets/readme_images/web_nav.gif" alt="Screenshot of navigation bar on main website"/>
++ Headers of all new sections/categories :
+    * <img src="assets/readme_images/web_headers.gif" alt="header titles to determin new sections"/>
++ Icon Related page break sections :
+    * <img src="assets/readme_images/web_page_break.gif" alt="icons to split the pages of website"/>
+    * Each icon is also responsive, with users hovering over and the icon disappearing
++ Responsive Gallery :
+    * <img src="assets/readme_images/web_gallery.gif" alt="Screenshot of gallery section from main site"/>
+    * All images have an overlay with text to explain what they are or used for.
++ Hoverable table to aid guides:
+    * <img src="assets/readme_images/web_table.gif" alt="Table with highlighted rows"/>
++ Contact/feedback form :
+    * <img src="assets/readme_images/web_contact.gif" alt="Form section for information to send"/>
++ Social links for further viewing :
+    * <img src="assets/readme_images/web_social.gif" alt="Links to external pages"/>
+    * These pages are also to open in a new tab.
+
 ## Progression
 mobile first image
 ### mid-stage
@@ -153,6 +179,8 @@ This was fixed by adding additional container with relative position, as the pri
     * During the course, this website and it's code has been tested using w3 validator and jigsaw w3 validator. Some errors have been found and logged within the testing stage, then corrected at a later point.
     On completion of the project, final checks with both w3 validator and jigsaw w3 validator have confirmed no errors found within the code. 
 - [Links validation]
+    * 9 links 
+    * 1 form entry
 - [Spell check]
 - [Accessibility rating]
 
