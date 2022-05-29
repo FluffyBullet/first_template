@@ -220,6 +220,12 @@ This project is hosted and stored on www.github.com, with editing through www.gi
 
 Mid-stage of creation, I chose to make the site public by visiting the settings tab of my repository, selecting the repository's branch (Main) then publish page. This allowed the website to be viewed by any browser using the URL https://fluffybullet.github.io/peony_kisses/
 
+### For modification or copies
+#### Cloning the repository
+On opening of www.github.com/FluffyBullet/peony_kisses the landing page will offer a list of icons, including a green icon labelled as "Code".
+Selecting this button will offer a list of options, including links, opening with Github or downloading as a ZIP File.
+
+This will allow the user to download all codes and images to import on their code/profile.
 
 ## Credits
 
