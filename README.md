@@ -189,12 +189,13 @@ This was fixed by adding additional container with relative position, as the pri
 The aim of the websites first creation is static information to show a range of products available to buy. Features to be added at a later stage is:
 - live blogs of social media post, Facebook and Twitter
 - E-Commerce site, for a selection of generic made biscuits/cakes
-- Upload of images to send via form for special products
+- Upload of images to send via form for special products for orders.
 
 ## Deployment
 
 This project is hosted and stored on www.github.com, with editing through www.gitpod.com and desktop similar software: Visual Studio's. Settings are edited to allow public viewing as required feedback from intended customer and clients on a regular basis.
 
+Mid-stage of creation, I chose to make the site public by visiting the settings tab of my repository, selecting the repository's branch (Main) then publish page. This allowed the website to be viewed by any browser using the URL https://fluffybullet.github.io/peony_kisses/
 
 
 ## Credits
