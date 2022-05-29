@@ -22,7 +22,7 @@ Visit the live website [HERE](https://fluffybullet.github.io/peony_kisses/)
     - [Bugs yet to fixed]
     - [HTML Validation]
     - [CSS Validation]
-    - [Links validation]
+    - [Links validation](#links-validation)
     - [Spell check]
     - [Accessibility rating]
 - Deployment method
@@ -121,9 +121,9 @@ This includes:
 + Navigation bar at the top of the screen : 
     * <img src="assets/readme_images/web_nav.gif" alt="Screenshot of navigation bar on main website"/>
 + Headers of all new sections/categories :
-    * <img src="assets/readme_images/web_headers.gif" alt="header titles to determin new sections"/>
+    * <img src="assets/readme_images/web_headers.gif" alt="header titles to determin new sections" height="250px"/>
 + Icon Related page break sections :
-    * <img src="assets/readme_images/web_page_break.gif" alt="icons to split the pages of website"/>
+    * <img src="assets/readme_images/web_page_break.gif" alt="icons to split the pages of website" height="250px"/>
     * Each icon is also responsive, with users hovering over and the icon disappearing
 + Responsive Gallery :
     * <img src="assets/readme_images/web_gallery.gif" alt="Screenshot of gallery section from main site"/>
@@ -131,7 +131,7 @@ This includes:
 + Hoverable table to aid guides:
     * <img src="assets/readme_images/web_table.gif" alt="Table with highlighted rows"/>
 + Contact/feedback form :
-    * <img src="assets/readme_images/web_contact.gif" alt="Form section for information to send"/>
+    * <img src="assets/readme_images/web_contact.gif" alt="Form section for information to send" height="250px"/>
 + Social links for further viewing :
     * <img src="assets/readme_images/web_social.gif" alt="Links to external pages"/>
     * These pages are also to open in a new tab.
@@ -178,9 +178,32 @@ This was fixed by adding additional container with relative position, as the pri
 - [CSS Validation]
     * During the course, this website and it's code has been tested using w3 validator and jigsaw w3 validator. Some errors have been found and logged within the testing stage, then corrected at a later point.
     On completion of the project, final checks with both w3 validator and jigsaw w3 validator have confirmed no errors found within the code. 
-- [Links validation]
-    * 9 links 
+- [Links validation](#links-validation)
+    * 7 links 
+        + The first section of Peony Kisses website displays 4 visible links for the user to navigate. With 3 different locations:
+            1. Gallery
+            2. Events
+            3. Contact Us (in nav bar and welcome text)
+            + On clicking, and repeated testing, the above links continue to move the displayed information to the relevant sections with no errors.
+            + This process was also repeated on the mobile display mode and my personal phone to ensure the bookmarked section displays the correct category for all devices.
+        + At present, the footer section includes 3 links to social media websites:
+            1. Instagram (Peony Kisses site yet to be created and linked)
+            2. Facebook
+            3. Snapchat (Peony Kisses site yet to be created and linked)
+            + All the above links are coded to open the social media sites in a new tab.
+            + Error found - when creating the link I linked to Twitter instead of Instagram. This has now been edited - 29/5/22.
+            + All links are working correctly and now navigate to the correct websites.
     * 1 form entry
+        + Above the footer section, the website includes a form allowing users to submit information relating to their orders. Current entries on the website is logged with CodeInstitute formdump, with research I found there is an option using php scripts to generate e-mails which will be implemented at a later date. Expected behaviour at present is for all fields requiring information before allowing the form to submit it's information. If chosen to clear all informaiton and restart, the "Clear" icon will remove all entered data.
+            1. Immediate presing of submit without information entered on the fields above display a requirement of field entry.
+                2. After name entry, this then request e-mail to be entered, which only accepts e-mail format (also tested).
+                3. Events and Idea's needs text to be entered, any text is permitted in this field.
+                4. Error found - date field missing required status, now corrected.
+                    >note for future development: required date to only be allowed with future dates.
+                5. Delivery method is required with radio button selection (Only one to be selected at a time)
+            6. Completion of all information allows submission of data on forumdump:<br>
+            <img src="assets/readme_images/web_form_yes.gif" alt="correct logging of data on form database" height="250px"/>
+        + Clicking of Clear button resets all fields with no entries, for user to re-start.
 - [Spell check]
 - [Accessibility rating]
 
