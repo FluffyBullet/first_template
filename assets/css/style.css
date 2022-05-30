@@ -26,6 +26,7 @@ a, li a {
 
 nav img {
     width:345px;
+    clear:both;
 }
 
 nav ul a:hover {
