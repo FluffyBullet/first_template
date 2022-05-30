@@ -2,6 +2,9 @@
 
 Visit the live website [HERE](https://fluffybullet.github.io/peony_kisses/)
 
+>Note for accessors, the contributors is showing as Jason Reynolds contributed towards the coding too. This was as I was at his PC Station on Sunday 29th May updating my readme file. I'm new to git and push, not knowing I had to change to a ID Local session and log in as myself.
+The only contribution was one paragraph in the readme file which I write, I tried to reset this but would not remove off the file.
+
 ## Index
  - [Website Purpose](#aim-of-the-website)
  - [Research](#research)
@@ -173,7 +176,7 @@ This was fixed by adding additional container with relative position, as the pri
    
 - [Format]
 - [HTML Validation]
-    * During the course, this website and it's code has been tested using w3 validator and jigsaw w3 validator. Some errors have been found and logged within the testing stage, then corrected at a later point.
+    * During the cour   se, this website and it's code has been tested using w3 validator and jigsaw w3 validator. Some errors have been found and logged within the testing stage, then corrected at a later point.
     On completion of the project, final checks with both w3 validator and jigsaw w3 validator have confirmed no errors found within the code. 
 - [CSS Validation]
     * During the course, this website and it's code has been tested using w3 validator and jigsaw w3 validator. Some errors have been found and logged within the testing stage, then corrected at a later point.
