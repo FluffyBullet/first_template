@@ -16,9 +16,9 @@
     <body>
         <header>
             <nav>
-                <img src="assets/images/logo.jpg" alt="logo of Bespoke Peony kisses" id="logo"/>
+                <img src="assets/images/logo.jpg" alt="logo of Bespoke Peony kisses" />
                 <!-- main navigation bar-->
-                <ul class="beige">
+                <ul class="beige" id="logo">
                     <li><a href="#gallery">Gallery</a></li>
                     <li><a href="#mid-page">Events</a></li>
                     <li><a href="#contactus">Contact Us</a></li>
@@ -28,7 +28,7 @@
         <main>
             <section id="welcome-body">
                 <div id="logo-main">
-                    <img src="assets/images/logo.jpg" alt="logo of bespoke peony kisses"/>
+                    <img src="assets/images/logo.jpg" alt="logo of bespoke peony kisses" id="logo"/>
                 </div>
                 <div id="welcome-text">
                     <h1 class="title">Welcome!</h1>
@@ -44,131 +44,134 @@
                 <p><img src="assets/images/cake.png" alt="cake icon"/><img src="assets/images/cake.png" alt="cake icon"/><img src="assets/images/cake.png" alt="cake icon"/></p>
             </div>
             <br><br>
-            <!--section for images with overlay-->
-            <section>
-                <br>
-                <h2 class="title" id="gallery">Gallery</h2>
-                <div class="pictures">
-                    <div class="container">
-                        <img src="assets/images/fundraiser.jpg" alt="Fund raising cakes"/>
-                        <div class="overlay"><div class="text">Ukraine Cake Sale</div></div>
-                    </div>
-                    <div class="container">
-                        <img src="assets/images/singlecake.jpg" alt="Finished cake"/>
-                        <div class="overlay"><div class="text">Finished Cake</div></div>
-                    </div>
-                    
-                    <div class="container" id="picture6">
-                        <img src="assets/images/heroimage.jpg" alt="presented biscuits"/>
-                        <div class="overlay"><div class="text">Birthday Biscuits</div></div>
-                    </div>
-                    <div class="container">
-                        <img src="assets/images/biscuitprep.jpg" alt="Prepping biscuits"/>
-                        <div class="overlay"><div class="text">Ready to bake</div></div>
-                    </div>
-                    <div class="container">
-                        <img src="assets/images/generic_birthday.jpg" alt="Happy Birthday biscuits">
-                        <div class="overlay"><div class="text">Generic Birthday Text</div></div>
-                    </div>
-                    <div class="container">
-                        <img src="assets/images/cakedec.jpg" alt="Decorated cake"/>
-                        <div class="overlay"><div class="text">Decorated Cake</div></div>
-                    </div>
-                </div>
-            <div class="page_break">
-                <p><img src="assets/images/two-macaroons.png" alt="macaroons icon"/><img src="assets/images/two-macaroons.png" alt="macaroons icon"/><img src="assets/images/two-macaroons.png" alt="macaroons icon"/></p>
-            </div>
-            <br><br>
-            </section>
-            <!--events column, text based with event ideas-->
-            <section id="mid-page">
-                    <div><h3>Idea's for events</h3></div>
-                <div class="event_table">
-                <div class="event1">
-                    <h4>Weddings  <i class="fa-solid fa-ring"></i></h4>
-                    <p><em>Individually wrapped biscuits with custom writing in the icing for atendee's to take home. delivered in a safe storage box</em></p>
-                    <h4>Birthday Parties <i class="fa-solid fa-cake-candles"></i>   </h4>
-                    <p><em>Shaped and iced biscuits presented in either custom box or personal placemat.</em></p>
-                </div>
-                <div class="event2">
-                    <h4>Dinner Parties <i class="fa-solid fa-utensils"></i></h4>
-                    <p><em>Specially crafted cakes/biscuits for desert. Baked with gentle spices to compliment the taste pallet.</em></p>
-                </div>
-                <div class="event3">
-                    <h4>Hosting <i class="fa-solid fa-calendar-day"></i></h4>
-                    <p><em>Fun shaped attractive biscuits, or even with ice-breaker topics to encourage guest and others to start the conversation going!</em></p>
-                    <h4>Celebrations <i class="fa-solid fa-champagne-glasses"></i></h4>
-                    <p><em>Unique biscuits to bring to the table, shapes, colors/effects and writing to make the platter look extrordinary!</em></p>
+            <div>
+                <p id="icon"><a href="#logo" alt="top of the page">Top</a></p>
+                <!--section for images with overlay, taken from w3 schools-->
+                <section>
                     <br>
-                </div>
-                </div>
-            </section> 
-            <div class="page_break">
-                <p><i class="fa-solid fa-scale-balanced"></i> <i class="fa-solid fa-scale-balanced"></i> <i class="fa-solid fa-scale-balanced"></i></p>
-            </div>
-            <br><br>
-            <!--pricing scope, table, list and text-->
-            <section>
-                <div id="guide">
-                    <div>
-                        <h3>Estimated Guide</h3>
-                    </div>
-                    <div class="guide-info">
-                <table>
-                    <tr><th colspan="4">Aproximate guide <em>ea</em></th></tr>
-                    <tr><td>Quantity</td><td>Cakes</td><td>Biscuits</td><td>Mix</td></tr>
-                    <tr><td>1-10</td><td>£1.50</td><td>£0.80</td><td>£1.25</td></tr>
-                    <tr><td>11-20</td><td>£1.30</td><td>£0.70</td><td>£1.15</td></tr>
-                    <tr><td>21-30</td><td>£1.25</td><td>£0.68</td><td>£1.10</td></tr>
-                </table>
-                </div>
-                </div>
-                <div class="guide-info">
-                    <div id="more">
-                        <p>This guide is for a small selection and estimated prices, variations and
-                        requirements may increase costings. Please specify all requirements in the 
-                        contact form below.
-                        </p>
-                        <p>
-                        I also offer the following:
-                        <div id="additional">
-                            <ul>
-                                <li>Boxes</li>
-                                <li>Acrylic Cut-Outs</li>
-                                <li>Placemats</li>
-                                <li>Name-Cutouts</li>
-                                <li>And many more!</li>
-                            </ul>
-                        </p>
+                    <h2 class="title" id="gallery">Gallery</h2>
+                    <div class="pictures">
+                        <div class="container">
+                            <img src="assets/images/fundraiser.jpg" alt="Fund raising cakes"/>
+                            <div class="overlay"><div class="text">Ukraine Cake Sale</div></div>
+                        </div>
+                        <div class="container">
+                            <img src="assets/images/singlecake.jpg" alt="Finished cake"/>
+                            <div class="overlay"><div class="text">Finished Cake</div></div>
+                        </div>
+                        
+                        <div class="container" id="picture6">
+                            <img src="assets/images/heroimage.jpg" alt="presented biscuits"/>
+                            <div class="overlay"><div class="text">Birthday Biscuits</div></div>
+                        </div>
+                        <div class="container">
+                            <img src="assets/images/biscuitprep.jpg" alt="Prepping biscuits"/>
+                            <div class="overlay"><div class="text">Ready to bake</div></div>
+                        </div>
+                        <div class="container">
+                            <img src="assets/images/generic_birthday.jpg" alt="Happy Birthday biscuits">
+                            <div class="overlay"><div class="text">Generic Birthday Text</div></div>
+                        </div>
+                        <div class="container">
+                            <img src="assets/images/cakedec.jpg" alt="Decorated cake"/>
+                            <div class="overlay"><div class="text">Decorated Cake</div></div>
                         </div>
                     </div>
+                <div class="page_break">
+                    <p><img src="assets/images/two-macaroons.png" alt="macaroons icon"/><img src="assets/images/two-macaroons.png" alt="macaroons icon"/><img src="assets/images/two-macaroons.png" alt="macaroons icon"/></p>
                 </div>
-            </section>
-            <div class="page_break">
-                <p><i class="fa-solid fa-envelope-open-text"></i> <i class="fa-solid fa-envelope-open-text" ></i> <i class="fa-solid fa-envelope-open-text"></i></p>
-            </div>
-            <br>
-            <!--contact section-->
-            <div class="center" id="contactus">
-                <form action="https://formdump.codeinstitute.net/">
-                    <fieldset>
-                        <legend>Contact Me:</legend>
-                            <div class="entry">
-                                <label for="name">Your Name</label><input class="entry" type="text" name="Contact" id="name" placeholder="First Name/Surname" required><br>
-                                <label for="email">Contact E-mail</label><input class="entry" type="email" name="email" id="email" placeholder="Enter E-Mail" required><br>
-                                <label for="body">Event and Idea's</label><textarea class="entry" name="requirement" id="body" placeholder="Interest/Requirement" rows="6" cols="15" required></textarea><br>
-                                <label for="reqdate">Required Date:</label><input type="date" id="reqdate" name="reqdate" required>
-                                <p>Delivery Method;</p>
-                                <label for="collect">Collect</label><input type="radio" name="delivery" value="collect" id="collect" required><br>
-                                <label for="deliver">Deliver</label><input type="radio" name="delivery" value="deliver" id=deliver><br>
-                                <br>
+                <br><br>
+                </section>
+                <!--events column, text based with event ideas-->
+                <section id="mid-page">
+                        <div><h3>Idea's for events</h3></div>
+                    <div class="event_table">
+                    <div class="event1">
+                        <h4>Weddings  <i class="fa-solid fa-ring"></i></h4>
+                        <p><em>Individually wrapped biscuits with custom writing in the icing for atendee's to take home. delivered in a safe storage box</em></p>
+                        <h4>Birthday Parties <i class="fa-solid fa-cake-candles"></i>   </h4>
+                        <p><em>Shaped and iced biscuits presented in either custom box or personal placemat.</em></p>
+                    </div>
+                    <div class="event2">
+                        <h4>Dinner Parties <i class="fa-solid fa-utensils"></i></h4>
+                        <p><em>Specially crafted cakes/biscuits for desert. Baked with gentle spices to compliment the taste pallet.</em></p>
+                    </div>
+                    <div class="event3">
+                        <h4>Hosting <i class="fa-solid fa-calendar-day"></i></h4>
+                        <p><em>Fun shaped attractive biscuits, or even with ice-breaker topics to encourage guest and others to start the conversation going!</em></p>
+                        <h4>Celebrations <i class="fa-solid fa-champagne-glasses"></i></h4>
+                        <p><em>Unique biscuits to bring to the table, shapes, colors/effects and writing to make the platter look extrordinary!</em></p>
+                        <br>
+                    </div>
+                    </div>
+                </section> 
+                <div class="page_break">
+                    <p><i class="fa-solid fa-scale-balanced"></i> <i class="fa-solid fa-scale-balanced"></i> <i class="fa-solid fa-scale-balanced"></i></p>
+                </div>
+                <br><br>
+                <!--pricing scope, table, list and text-->
+                <section>
+                    <div id="guide">
+                        <div>
+                            <h3>Estimated Guide</h3>
+                        </div>
+                        <div class="guide-info">
+                    <table>
+                        <tr><th colspan="4">Aproximate guide <em>ea</em></th></tr>
+                        <tr><td>Quantity</td><td>Cakes</td><td>Biscuits</td><td>Mix</td></tr>
+                        <tr><td>1-10</td><td>£1.50</td><td>£0.80</td><td>£1.25</td></tr>
+                        <tr><td>11-20</td><td>£1.30</td><td>£0.70</td><td>£1.15</td></tr>
+                        <tr><td>21-30</td><td>£1.25</td><td>£0.68</td><td>£1.10</td></tr>
+                    </table>
+                    </div>
+                    </div>
+                    <div class="guide-info">
+                        <div id="more">
+                            <p>This guide is for a small selection and estimated prices, variations and
+                            requirements may increase costings. Please specify all requirements in the 
+                            contact form below.
+                            </p>
+                            <p>
+                            I also offer the following:
+                            <div id="additional">
+                                <ul>
+                                    <li>Boxes</li>
+                                    <li>Acrylic Cut-Outs</li>
+                                    <li>Placemats</li>
+                                    <li>Name-Cutouts</li>
+                                    <li>And many more!</li>
+                                </ul>
+                            </p>
                             </div>
-                            <div>
-                                <input class="button" type="reset" value="Clear">
-                                <input class="button" type="submit" value="Send">
-                            </div>
-                    </fieldset>
-                </form>
+                        </div>
+                    </div>
+                </section>
+                <div class="page_break">
+                    <p><i class="fa-solid fa-envelope-open-text"></i> <i class="fa-solid fa-envelope-open-text" ></i> <i class="fa-solid fa-envelope-open-text"></i></p>
+                </div>
+                <br>
+                <!--contact section-->
+                <div class="center" id="contactus">
+                    <form action="https://formdump.codeinstitute.net/">
+                        <fieldset>
+                            <legend>Contact Me:</legend>
+                                <div class="entry">
+                                    <label for="name">Your Name</label><input class="entry" type="text" name="Contact" id="name" placeholder="First Name/Surname" required><br>
+                                    <label for="email">Contact E-mail</label><input class="entry" type="email" name="email" id="email" placeholder="Enter E-Mail" required><br>
+                                    <label for="body">Event and Idea's</label><textarea class="entry" name="requirement" id="body" placeholder="Interest/Requirement" rows="6" cols="15" required></textarea><br>
+                                    <label for="reqdate">Required Date:</label><input type="date" id="reqdate" name="reqdate" required>
+                                    <p>Delivery Method;</p>
+                                    <label for="collect">Collect</label><input type="radio" name="delivery" value="collect" id="collect" required><br>
+                                    <label for="deliver">Deliver</label><input type="radio" name="delivery" value="deliver" id=deliver><br>
+                                    <br>
+                                </div>
+                                <div>
+                                    <input class="button" type="reset" value="Clear">
+                                    <input class="button" type="submit" value="Send">
+                                </div>
+                        </fieldset>
+                    </form>
+                </div>
             </div>
         </main>
         <!--links to social media to be added to the footer-->
