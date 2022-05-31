@@ -83,15 +83,15 @@ for my layout, I chose a single page website displaying all information in a str
 Following the above, I was able to create a template/wireframe for my website.
     
 - #### First Design, Mobile & Small Screens
-    - <img src="assets\readme_images\mobiledesign.png" alt="design for mobile screens">
+    - <img src="assets/readme_images/mobiledesign.png" alt="design for mobile screens">
 - #### Second Design (Tablets)
-    - <img src="assets\readme_images\tabletdesign.png" alt="Design for tablet screens">
+    - <img src="assets/readme_images/tabletdesign.png" alt="Design for tablet screens">
 - #### Third Design (Large screens)
-    - <img src="assets\readme_images\desktopdesign.png" alt="Design for desktop screens">
+    - <img src="assets/readme_images/desktopdesign.png" alt="Design for desktop screens">
 #### Color Scheme
 As this website is created for my friend who has already created her profile with a dedicated Facebook page. This resulted in a logo with specific colors created;
 
-<img src="assets\images\logo.jpg" alt="logo of bespoke peony designs" height=200px/>
+<img src="assets/images/logo.jpg" alt="logo of bespoke peony designs" height=200px/>
 
 - ##### Background 
     - the background has a beige finish, which is matched using image color picker (Notes in references). Background color is #ebe53.
@@ -106,6 +106,7 @@ As this website is created for my friend who has already created her profile wit
         + Page-breaker icons/images, to hide when hovered over or clicked on, then re-appearing when opposite reaction is actioned.
         + Highlighting of table rows in pricing guide, for easier viewing of prices
         + Changing color buttons in contact form to confirm action has been completed on request.
+    + Images of responsive screens displayed below under Progression/Final checks.
 
 
 ## Construction of website
@@ -115,7 +116,7 @@ This website has been using with construction of HTML and CSS, core languages tr
 
 Peony Kisses website has been created with a host of features to enable the best user experience possible.
 
-With the mobile first technique, the website is designed for optimal layout on small devices, then adaptive behaviour for a larger range of screens. The content is desireable in two layouts, removing the requirement of multiple breakpoints, only the one. This limits the websites requirement for display status and how to behave, increasing it's overal speed.
+With the mobile first technique, the website is designed for optimal layout on small devices, then adaptive behaviour for a larger range of screens. The content is desirable in two layouts, removing the requirement of multiple breakpoints, only the one. This limits the websites requirement for display status and how to behave, increasing it's overall speed.
 
 Accessibility has also been accounted for, with aria labels added to the relevant sections of links and images. As all text can be read by a text-to-speech software built in majority of computers as a standard. The color contract between text and background also allows users with partial site or color blind understand with ease too. Both ratings have been taken from dev tools Light house application.
 
@@ -124,7 +125,7 @@ This includes:
 + Navigation bar at the top of the screen : 
     * <img src="assets/readme_images/web_nav.gif" alt="Screenshot of navigation bar on main website"/>
 + Headers of all new sections/categories :
-    * <img src="assets/readme_images/web_headers.gif" alt="header titles to determin new sections" height="250px"/>
+    * <img src="assets/readme_images/web_headers.gif" alt="header titles to determine new sections" height="250px"/>
 + Icon Related page break sections :
     * <img src="assets/readme_images/web_page_break.gif" alt="icons to split the pages of website" height="250px"/>
     * Each icon is also responsive, with users hovering over and the icon disappearing
@@ -140,11 +141,26 @@ This includes:
     * These pages are also to open in a new tab.
 
 ## Progression
-mobile first image
+
+### Final checks
+Before handing in of the project, I used further checks to ensure my projects meets the criteria. Specifically the website needs to be at least 3 pages or single scrolling page worth 3 pages or more.
+To check this and how my website presents itself with responsive behaviour I used www.ui.dev/amiresponsive typing in the url of my project. Images displayed as followed:
+- Page 1:
+    - <img src="assets/readme_images/page1.jpg" alt="Screenshot of page 1" height=250px/>
+    - Note: iPhone image displays a limited view, but when checked with dev ops (iPhone SE) and my personal phone (Huawei P30 Lite) the screen displayed offered the welcome text too.
+- Page 2:
+    - <img src="assets/readme_images/page2.jpg" alt="Screenshot of page 2" height=250px/>
+- Page 3:
+    - <img src="assets/readme_images/page3.jpg" alt="Screenshot of page 3" height=250px/>
+- Page 4:
+    - <img src="assets/readme_images/page4.jpg" alt="Screenshot of page 4" height=250px/>
+- Page 5:
+    - <img src="assets/readme_images/page5.jpg" alt="Screenshot of page 5" height=250px/>
+
 ### mid-stage
 Mid-stage in my project, I exported my HTML code to W3 Validator for HTML. The website had found some codes with an error, mostly div tags without a closing tag and break lines coded as self-closing, but not required. On review of the below image, I corrected end with removal of end tags and closure tags.
 
-<img src="assets\readme_images\code_test.gif" alt="results of w3 validation at mid-project" height=250px/>
+<img src="assets/readme_images/code_test.gif" alt="results of w3 validation at mid-project" height=250px/>
 
 Further checks at a later stage shown a reduced quantity of errors and further corrections to be made.
 
@@ -159,10 +175,10 @@ During the above checks, no errors were found on CSS w3 (jigsaw) validator.
     - [x] form layout<br>
     - [x] Image Overlay<br>
         - In the introduction of image gallery, I created an animation overlay when pressing/hovering over an image. On my first attempt, I found the overlay covered the top segment of the website.<br>
-<img src="assets\readme_images\overlay_fail.jpg" alt="overlay not showing on screen correctly" height=200px/><img src="assets\readme_images\overlay_correct.jpg" alt="Correction of overlay result" height=200px/><br>
+<img src="assets/readme_images/overlay_fail.jpg" alt="overlay not showing on screen correctly" height=200px/><img src="assets/readme_images/overlay_correct.jpg" alt="Correction of overlay result" height=200px/><br>
 This was fixed by adding additional container with relative position, as the primary div's were position:absolute.<br>
     - [x] Icons not displaying
-        - <img src="assets\readme_images\icons.gif" alt="icons being added, but not displayed"/>
+        - <img src="assets/readme_images/icons.gif" alt="icons being added, but not displayed"/>
         - This was fixed by including the "awesome font" href in the head of HTML. - found in references.
      - [x] Font on overlay of pictures to adjust to size.
         - adjusted to 50 vertical on CSS, with font sizings adjusting to the display equipment
@@ -178,8 +194,10 @@ This was fixed by adding additional container with relative position, as the pri
    
 - [Format]
 - [HTML Validation]
-    * During the cour   se, this website and it's code has been tested using w3 validator and jigsaw w3 validator. Some errors have been found and logged within the testing stage, then corrected at a later point.
+    * During the course, this website and it's code has been tested using w3 validator and jigsaw w3 validator. Some errors have been found and logged within the testing stage, then corrected at a later point.
     On completion of the project, final checks with both w3 validator and jigsaw w3 validator have confirmed no errors found within the code. 
+    * Final checks with HTML Validator <br>
+    <img src="assets/readme_images/web_w3_finalcheck.gif" alt="w3 validator checks confirm no errors"/>
 - [CSS Validation]
     * During the course, this website and it's code has been tested using w3 validator and jigsaw w3 validator. Some errors have been found and logged within the testing stage, then corrected at a later point.
     On completion of the project, final checks with both w3 validator and jigsaw w3 validator have confirmed no errors found within the code. 
