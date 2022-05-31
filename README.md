@@ -18,23 +18,19 @@ The only contribution was one paragraph in the readme file which I write, I trie
     - [font](#font)
 - [Construction of website](#construction-of-website)
 - [Features](#features)
-- [Development of the project]
-    - [Approach]
+- [Development of the project](#progression)
+    - [Final Checks](#final-checks)
+    - [Mid Stage](#mid-stage)
 - [Testing](#testings-and-accessibility)
     - [Bugs found and Fixed](#bugs)
-    - [Bugs yet to fixed]
-    - [HTML Validation]
-    - [CSS Validation]
+    - [Bugs yet to fixed](#bugs-to-fixed)
+    - [HTML Validation](#html-validation)
+    - [CSS Validation](#css-validation)
     - [Links validation](#links-validation)
-    - [Spell check]
-    - [Accessibility rating]
-- Deployment method
-    - github pages
-    - forking
-    - making a clone
+    - [Spell check](#spell-check)
+    - [Accessibility rating](#accessibility-rating)
+- [Deployment method](#deployment)
 - [Roadmap](#roadmap)
-    - [Social media integration]
-    - [E-commerce possibility]
 - [References](#references)
 - [Acknowledgements](#acknowledgements)
 
@@ -157,7 +153,7 @@ To check this and how my website presents itself with responsive behaviour I use
 - Page 5:
     - <img src="assets/readme_images/page5.jpg" alt="Screenshot of page 5" height=250px/>
 
-### mid-stage
+### Mid-Stage
 Mid-stage in my project, I exported my HTML code to W3 Validator for HTML. The website had found some codes with an error, mostly div tags without a closing tag and break lines coded as self-closing, but not required. On review of the below image, I corrected end with removal of end tags and closure tags.
 
 <img src="assets/readme_images/code_test.gif" alt="results of w3 validation at mid-project" height=250px/>
@@ -189,20 +185,20 @@ This was fixed by adding additional container with relative position, as the pri
     - [x] Clicking "top" icon to scroll up worked on mobile, but not on desktop
         - This errored as on desktop mode the nav icon has a false display mode, resulting in no link to direct too. To correct this, I replaced the id of logo to the nav bar, which now works as expected.
 
-- [Bugs to fixed]
+- ### Bugs to fixed
     - [] Contact us events and idea's text area to display a multiple lines rather than single line.
         + This is caused by contact form having restricted line spacing. This can be corrected on re-formatting the form, on future updates. 
    
 - [Format]
-- [HTML Validation]
+- #### HTML Validation
     * During the course, this website and it's code has been tested using w3 validator and jigsaw w3 validator. Some errors have been found and logged within the testing stage, then corrected at a later point.
     On completion of the project, final checks with both w3 validator and jigsaw w3 validator have confirmed no errors found within the code. 
     * Final checks with HTML Validator <br>
     <img src="assets/readme_images/web_w3_finalcheck.gif" alt="w3 validator checks confirm no errors"/>
-- [CSS Validation]
+- #### CSS Validation
     * During the course, this website and it's code has been tested using w3 validator and jigsaw w3 validator. Some errors have been found and logged within the testing stage, then corrected at a later point.
     On completion of the project, final checks with both w3 validator and jigsaw w3 validator have confirmed no errors found within the code. 
-- [Links validation](#links-validation)
+- #### Links validation
     * 7 links 
         + The first section of Peony Kisses website displays 4 visible links for the user to navigate. With 3 different locations:
             1. Gallery
@@ -228,13 +224,14 @@ This was fixed by adding additional container with relative position, as the pri
             6. Completion of all information allows submission of data on forumdump:<br>
             <img src="assets/readme_images/web_form_yes.gif" alt="correct logging of data on form database" height="250px"/>
         + Clicking of Clear button resets all fields with no entries, for user to re-start.
-- [Spell check]
+- #### Spell check
     To check all spelling on readme.md file, I exported all created text then paste into Microsoft Word. A large portion of errors found were to abbreviations and references, i.e fontawesome.
 
     Handfull of mis-spelt words have been corrected then commited.
-- [Accessibility rating]
-    On completion, I ran the lighthouse report on Microsoft Edge desktop mode. The report advised of good grades with small de-grading results, largely shifting layout, larger size images and overlap of input area's.
-    <img src="web_lighthouse.gif" alt="lighthouse report showing good/green results"/>
+## Accessibility rating
+ On completion, I ran the lighthouse report on Microsoft Edge desktop mode. The report advised of good grades with small de-grading results, largely shifting layout, larger size
+ images and overlap of input area's.
+<img src="assets/readme_images/web_lighthouse.gif" alt="lighthouse report showing good/green results" height=250px/>
 
 ## Roadmap
 
@@ -267,7 +264,10 @@ This will allow the user to download all codes and images to import on their cod
 >*Used to identify the color of the background within the logo image provided. This is used to accurately quote the Hex reference for background color.*
 
 [Pexels](https://www.pexels.com/) - www.pexels.com
->*Stock images used for gallery.*
+>*Stock images used for gallery.<br>
+Jess Bailey Designs for cake with ribbon decoration: https://www.pexels.com/photo/chocolate-cupcake-with-white-and-red-toppings-913136/<br>
+Taryn Elliott for cake with fruit and flower decoration: https://www.pexels.com/photo/person-holding-cupcake-with-white-icing-4099127/<br>
+Jonathan Meyer for decorated biscuits : https://www.pexels.com/photo/variety-of-assorted-designed-cookies-752499/*<br>
 
 [w3 Schools online](https://w3schools.com) - www.w3schools.com
 >*Variety of HTML and CSS Codes,<br>
