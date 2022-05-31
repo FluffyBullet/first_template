@@ -197,7 +197,8 @@ This was fixed by adding additional container with relative position, as the pri
     <img src="assets/readme_images/web_w3_finalcheck.gif" alt="w3 validator checks confirm no errors"/>
 - #### CSS Validation
     * During the course, this website and it's code has been tested using w3 validator and jigsaw w3 validator. Some errors have been found and logged within the testing stage, then corrected at a later point.
-    On completion of the project, final checks with both w3 validator and jigsaw w3 validator have confirmed no errors found within the code. 
+    On completion of the project, final checks with both w3 validator and jigsaw w3 validator have confirmed no errors found within the code. <br>
+    <img src="assets/readme_images/jigsaw_finalcheck.gif" alt="w3 jigsaw validator"/>
 - #### Links validation
     * 7 links 
         + The first section of Peony Kisses website displays 4 visible links for the user to navigate. With 3 different locations:
