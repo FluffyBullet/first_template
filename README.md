@@ -181,13 +181,13 @@ This was fixed by adding additional container with relative position, as the pri
         - <img src="assets/readme_images/icons.gif" alt="icons being added, but not displayed"/>
         - This was fixed by including the "awesome font" href in the head of HTML. - found in references.
      - [x] Font on overlay of pictures to adjust to size.
-        - adjusted to 50 vertical on CSS, with font sizings adjusting to the display equipment
+        - adjusted to 50 vertical on CSS, with font size adjusting to the display equipment
     - [x] on reactive media to large screens +1Kpx, contact form overlaps page breaker icons. Squashed upwards ?
         - welcome division had fixed height which squashed on smaller sizes, removal of fixed height correct this.
     - [x] email logo to be shown above contact us section for page breaker.
         - created as a p element with styling, confirming icons rather than images or text.  
     - [x] Clicking "top" icon to scroll up worked on mobile, but not on desktop
-        - This errored as on desktop mode the nav icon has a flase display mode, resulting in no link to direct too. To correct this, I replaced the id of logo to the nav bar, which now works as expected.
+        - This errored as on desktop mode the nav icon has a false display mode, resulting in no link to direct too. To correct this, I replaced the id of logo to the nav bar, which now works as expected.
 
 - [Bugs to fixed]
     - [] Contact us events and idea's text area to display a multiple lines rather than single line.
@@ -217,8 +217,8 @@ This was fixed by adding additional container with relative position, as the pri
             + Error found - when creating the link I linked to Twitter instead of Instagram. This has now been edited - 29/5/22.
             + All links are working correctly and now navigate to the correct websites.
     * 1 form entry
-        + Above the footer section, the website includes a form allowing users to submit information relating to their orders. Current entries on the website is logged with CodeInstitute formdump, with research I found there is an option using php scripts to generate e-mails which will be implemented at a later date. Expected behaviour at present is for all fields requiring information before allowing the form to submit it's information. If chosen to clear all informaiton and restart, the "Clear" icon will remove all entered data.
-            1. Immediate presing of submit without information entered on the fields above display a requirement of field entry.
+        + Above the footer section, the website includes a form allowing users to submit information relating to their orders. Current entries on the website is logged with CodeInstitute formdump, with research I found there is an option using php scripts to generate e-mails which will be implemented at a later date. Expected behaviour at present is for all fields requiring information before allowing the form to submit it's information. If chosen to clear all information and restart, the "Clear" icon will remove all entered data.
+            1. Immediate pressing of submit without information entered on the fields above display a requirement of field entry.
                 2. After name entry, this then request e-mail to be entered, which only accepts e-mail format (also tested).
                 3. Events and Idea's needs text to be entered, any text is permitted in this field.
                 4. Error found - date field missing required status, now corrected.
@@ -281,7 +281,7 @@ Meta tags for viewport and description*
 >*Hints, tips and presentation of HTML and CSS used throughout the codes<br>
 example of creating columns within a page<br>
 Understanding use of display:none and visibility:hidden<br>
-Formating layout of contact form*
+Formatting layout of contact form*
 
 
 ### Acknowledgements
@@ -290,5 +290,5 @@ Contacts discussed the project with
 2. Mentor Marcel Mulders, conversations with what examples to look for, what may be helpful and objectives to be mindful of.
 3. Class mate - Anna Gabain, through long conversations covering some syntax logics and their meanings, whilst showing on my screen allowed me to develop my project.
 4. Class mate - Jamie King, presenting projects to each other and comparing notes with each other.
-5. Class mate - Fran Boyle, possitive attitude and showing another perspective to approach the coding methodology during this course.
-6. Class mate - Gerard Kelly, conversations on presentation of files and path directories. Also preperation of information and display (front end).
+5. Class mate - Fran Boyle, positive attitude and showing another perspective to approach the coding methodology during this course.
+6. Class mate - Gerard Kelly, conversations on presentation of files and path directories. Also preparation of information and display (front end).
