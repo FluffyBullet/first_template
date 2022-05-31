@@ -10,25 +10,25 @@ The only contribution was one paragraph in the readme file which I write, I trie
  - [Research](#research)
  - [User Experience](#user-experience)
  - [Design](#design)
-    - [layout](#layout)
+    - [Layout](#layout)
         - [First Design](#first-design-mobile--small-screens)
         - [Second Design](#second-design-tablets)
         - [Third Design](#third-design-large-screens)
     - [Color Scheme](#color-scheme)
-    - [font](#font)
+    - [Font](#font)
 - [Construction of website](#construction-of-website)
 - [Features](#features)
 - [Development of the project](#progression)
     - [Final Checks](#final-checks)
     - [Mid Stage](#mid-stage)
 - [Testing](#testings-and-accessibility)
-    - [Bugs found and Fixed](#bugs)
-    - [Bugs yet to fixed](#bugs-to-fixed)
+    - [Bugs found And Fixed](#bugs)
+    - [Bugs Yet To Fixed](#bugs-to-fixed)
     - [HTML Validation](#html-validation)
     - [CSS Validation](#css-validation)
     - [Links validation](#links-validation)
-    - [Spell check](#spell-check)
-    - [Accessibility rating](#accessibility-rating)
+    - [Spell Check](#spell-check)
+    - [Accessibility Rating](#accessibility-rating)
 - [Deployment method](#deployment)
 - [Roadmap](#roadmap)
 - [References](#references)
@@ -186,7 +186,7 @@ This was fixed by adding additional container with relative position, as the pri
         - This errored as on desktop mode the nav icon has a false display mode, resulting in no link to direct too. To correct this, I replaced the id of logo to the nav bar, which now works as expected.
 
 - ### Bugs to fixed
-    - [] Contact us events and idea's text area to display a multiple lines rather than single line.
+    - [ ] Contact us events and idea's text area to display a multiple lines rather than single line.
         + This is caused by contact form having restricted line spacing. This can be corrected on re-formatting the form, on future updates. 
    
 - [Format]
