@@ -170,6 +170,8 @@ This was fixed by adding additional container with relative position, as the pri
         - welcome division had fixed height which squashed on smaller sizes, removal of fixed height correct this.
     - [x] email logo to be shown above contact us section for page breaker.
         - created as a p element with styling, confirming icons rather than images or text.  
+    - [x] Clicking "top" icon to scroll up worked on mobile, but not on desktop
+        - This errored as on desktop mode the nav icon has a flase display mode, resulting in no link to direct too. To correct this, I replaced the id of logo to the nav bar, which now works as expected.
 
 - [Bugs to fixed]
     - [] Contact us events and idea's text area to display a multiple lines rather than single line.
