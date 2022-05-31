@@ -24,9 +24,10 @@ a, li a {
     color:grey;
 }
 
-nav img {
+header img {
     width:345px;
     clear:both;
+    padding:0;
 }
 
 nav ul a:hover {
@@ -254,7 +255,7 @@ footer {
     body {
         font-size:24px;
     }
-    nav img {
+    header img {
         display:none;
     }
     .pictures{
