@@ -191,6 +191,7 @@ This was fixed by adding additional container with relative position, as the pri
 
 - [Bugs to fixed]
     - [] Contact us events and idea's text area to display a multiple lines rather than single line.
+        + This is caused by contact form having restricted line spacing. This can be corrected on re-formatting the form, on future updates. 
    
 - [Format]
 - [HTML Validation]
@@ -228,7 +229,12 @@ This was fixed by adding additional container with relative position, as the pri
             <img src="assets/readme_images/web_form_yes.gif" alt="correct logging of data on form database" height="250px"/>
         + Clicking of Clear button resets all fields with no entries, for user to re-start.
 - [Spell check]
+    To check all spelling on readme.md file, I exported all created text then paste into Microsoft Word. A large portion of errors found were to abbreviations and references, i.e fontawesome.
+
+    Handfull of mis-spelt words have been corrected then commited.
 - [Accessibility rating]
+    On completion, I ran the lighthouse report on Microsoft Edge desktop mode. The report advised of good grades with small de-grading results, largely shifting layout, larger size images and overlap of input area's.
+    <img src="web_lighthouse.gif" alt="lighthouse report showing good/green results"/>
 
 ## Roadmap
 
